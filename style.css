@@ -96,19 +96,6 @@ nav a{
   flex-direction: row;
   align-items: center;
 }
-/*
-.about-word{
-  flex:1;
-  margin: 10px;
-  align-items: horizontal;
-}
-
-
-.about-pic{
-  flex:1;
-  margin-top:50px;
-}
-*/
 .about-item{
   flex:1
 }
