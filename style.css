@@ -64,6 +64,7 @@ hr {
 header{
   margin: auto;
   text-align: center;
+  
 }
 
 footer {
@@ -78,4 +79,46 @@ a:active{ color:#f77f00; }
 
 nav a{
   margin: 15px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.head-item{
+  flex:1;
+}
+
+.about{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+/*
+.about-word{
+  flex:1;
+  margin: 10px;
+  align-items: horizontal;
+}
+
+
+.about-pic{
+  flex:1;
+  margin-top:50px;
+}
+*/
+.about-item{
+  flex:1
+}
+.portfolio{
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+.port-item{
+  flex:1;
+  margin: 5px;
 }
